@@ -1,0 +1,15 @@
+{
+  "name": "insight-summary-repair",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Repairs a conversation insight summarizer: dedupes/blank labels, missing confidence, configurable confidence threshold.",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
